@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.vite/
+dist/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+eirview.db
+
+# OS
+.DS_Store
+Thumbs.db
+.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local backups and temporary edits
+*.bak
+*.bak.*
+
+# Large files (models, health data)
+FaceAge-main/
+FaceAge-main/models/*.onnx
+FaceAge-main/models/*.task
+FaceAge-main/models/*.h5
+apple_health_export/
+*.xml
+
+# Sensitive
+.env
+.env.local
+*.pem
+credentials.json
+
